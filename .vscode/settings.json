@@ -1,0 +1,13 @@
+{
+    "redhat.telemetry.enabled": false,
+    "emeraldwalk.runonsave": {
+        /* It is important to specify Bash in order to do substitutions like below. */
+        "shell": "/bin/bash",
+        "commands": [
+            {
+                "cmd": "env | grep -i GITPOD_WORKSPACE && zola build --base-url=https://8002-${GITPOD_WORKSPACE_URL:8}",
+                "match": "/(config\\.toml|content|static|templates|themes)"
+            }
+        ]
+    }
+}
