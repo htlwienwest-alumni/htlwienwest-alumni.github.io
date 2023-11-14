@@ -1,3 +1,9 @@
 [submodule "themes/after-dark"]
 	path = themes/after-dark
 	url = https://github.com/getzola/after-dark.git
+[submodule "themes/tabi"]
+	path = themes/tabi
+	url = https://github.com/welpo/tabi.git
+[submodule "themes/juice"]
+	path = themes/juice
+	url = https://github.com/huhu/juice
